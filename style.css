@@ -1,4 +1,5 @@
 /* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
     display: flex;
@@ -10,7 +11,7 @@ body {
     background-color: #1F2937;
     display: flex;
     gap: 0 50px;
-    padding: 10px 200px;
+    padding: 25px 200px;
 }
 
 .header-link-one {
@@ -20,7 +21,8 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-link-one,
@@ -28,9 +30,58 @@ body {
 .header-link-three {
     color: #E5E7EB;
     font-size:18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    background-color: #1F2937;
+    display: flex;
+    padding: 80px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-title {
+    font-size: 48px;
     color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+    width: 460px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.banner-desc {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+    width: 460px;
+    padding-bottom: 20px;
+}
+
+.banner-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 120px;
+    border: 0;
+    flex: 0 1 0;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.banner-img {
+    margin-left: auto;
 }
