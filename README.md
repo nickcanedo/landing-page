@@ -50,4 +50,9 @@ FLEX CONTAINER BREAKDOWNS:
 
 5. Form section
     1. Text (left)
+        1. Form bold text
+        2. Form sub-text
     2. Button (right)
+
+6. Footer section
+    1. Footer text
