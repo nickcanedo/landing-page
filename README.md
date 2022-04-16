@@ -29,14 +29,14 @@ FLEX CONTAINER BREAKDOWNS:
     3. Header Link 2
     4. Header Link 3
 
-2. Hero/Banner:=
+2. Hero/Banner
     1. Left information & button
         1. Title
         2. Description
         3. Button
     2. Image placeholder
 
-3. Information section:
+3. Information section
     1. Subtitle
     2. Image placeholders
         1. Image 1
