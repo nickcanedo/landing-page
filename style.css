@@ -1,1 +1,36 @@
 /* style.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    gap: 0 50px;
+    padding: 10px 200px;
+}
+
+.header-link-one {
+    margin-left: auto;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-link-one,
+.header-link-two,
+.header-link-three {
+    color: #E5E7EB;
+    font-size:18px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
