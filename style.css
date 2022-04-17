@@ -211,3 +211,14 @@ a {
     font-family: 'Roboto', sans-serif;
     border: 2px #F9FAF8 solid;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 30px;
+}
