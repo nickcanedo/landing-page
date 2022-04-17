@@ -39,10 +39,18 @@ FLEX CONTAINER BREAKDOWNS:
 3. Information section
     1. Subtitle
     2. Image placeholders
-        1. Image 1
-        2. Image 2
-        3. Image 3
-        4. Image 4
+        1. Section 1
+            1. Image 1
+            2. Text 1
+        2. section 2
+            1. Image 2
+            2. Text 2
+        3. Section 3
+            1. Image 3
+            2. Text 3
+        4. Section 4
+            1. Image 4
+            2. Text 4
 
 4. Quote section
     1. Main quote
