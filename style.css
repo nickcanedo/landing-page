@@ -1,5 +1,5 @@
 /* style.css */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
     display: flex;
@@ -21,8 +21,9 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: bold;
 }
 
 .header-link-one,
@@ -31,6 +32,7 @@ body {
     color: #E5E7EB;
     font-size:18px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 a {
@@ -59,6 +61,7 @@ a {
     font-family: 'Roboto', sans-serif;
     width: 460px;
     padding-bottom: 15px;
+    font-weight: 900;
     font-weight: bold;
 }
 
@@ -80,10 +83,12 @@ a {
     flex: 0 1 0;
     padding: 5px 0;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .banner-img {
     margin-left: auto;
+    border: 3px solid black;
 }
 
 .information {
@@ -92,13 +97,14 @@ a {
     padding: 20px 0;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .subtitle {
     color: #1F2937;
     font-weight: bold;
     font-size: 36px;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -106,7 +112,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -121,6 +127,7 @@ a {
     align-items: center;
     gap: 10px 0px;
     text-align: center;
+    margin-top: -20px;
 }
 
 .image {
@@ -130,6 +137,31 @@ a {
 }
 
 .info-text {
-    width: 140px;
+    width: 150px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 250px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    padding-top: 20px;
+    margin-bottom: -10px;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: bold;
+    margin-left: auto;
 }
