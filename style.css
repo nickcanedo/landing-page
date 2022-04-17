@@ -165,3 +165,49 @@ a {
     font-style: bold;
     margin-left: auto;
 }
+
+.form {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-self: center;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 60px 100px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    column-gap: 200px;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.form-subtitle {
+    color: #F9FAF8;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.form-subtext {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+
+.form-button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 140px;
+    border: 0;
+    padding: 5px 0;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border: 2px #F9FAF8 solid;
+}
